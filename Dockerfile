@@ -1,4 +1,4 @@
-FROM docker.io/library/node:20.7.0-alpine@sha256:a0c796fbeda2e4370923ab5e64ed3351b072dc655b2e504f7204f60b1abd72dd
+FROM docker.io/library/node:20.7.0-alpine@sha256:a348d50e74df20fa8c572c3abf80b89ae4daf9c312523c49a42997284d13ebac
 
 LABEL \
   org.opencontainers.image.source="https://github.com/maxbrunet/renovate-approve-job" \
