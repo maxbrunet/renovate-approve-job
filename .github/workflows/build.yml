@@ -78,12 +78,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@1500a131381b66de0c52ac28abb13cd79f4b7ecc # v2.22.12
+        uses: github/codeql-action/init@9278e421667d5d90a2839487a482448c4ec7df4d # v3.27.2
         with:
           languages: javascript
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@1500a131381b66de0c52ac28abb13cd79f4b7ecc # v2.22.12
+        uses: github/codeql-action/analyze@9278e421667d5d90a2839487a482448c4ec7df4d # v3.27.2
 
   build:
     needs: [codeql-analyze, lint]
