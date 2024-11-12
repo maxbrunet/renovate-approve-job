@@ -28,7 +28,7 @@ async function getPullRequests() {
 
   await octokit
     .paginate(octokit.rest.search.issuesAndPullRequests, {
-      q: `${RENOVATE_PR_QUALIFIERS} "${AUTOMERGE_MESSAGE}" in:body review:required state:open type:pr`,
+      q: `${RENOVATE_PR_QUALIFIERS} "${AUTOMERGE_MESSAGE}" archived:false in:body review:required state:open type:pr`,
     })
     .then((items) => {
       prs = prs.concat(items);
