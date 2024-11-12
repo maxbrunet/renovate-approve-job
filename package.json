@@ -43,7 +43,7 @@
     "eslint-formatter-gha": "1.4.3",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-promise": "7.1.0",
-    "npm-run-all2": "5.0.2",
+    "npm-run-all2": "7.0.1",
     "prettier": "3.3.3",
     "semantic-release": "24.2.0"
   },
