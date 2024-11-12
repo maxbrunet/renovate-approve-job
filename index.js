@@ -1,4 +1,6 @@
 import bunyan from 'bunyan';
+// https://github.com/octokit/rest.js/issues/446
+// eslint-disable-next-line import/no-unresolved
 import { Octokit } from '@octokit/rest';
 
 const { GITHUB_TOKEN, RENOVATE_PR_QUALIFIERS } = process.env;
