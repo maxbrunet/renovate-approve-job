@@ -4,8 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "eslint": "eslint --ext .js .",
-    "eslint-fix": "eslint --ext .js --fix .",
+    "eslint": "eslint .",
+    "eslint-fix": "eslint --fix .",
     "lint": "run-s eslint prettier",
     "lint-fix": "run-s eslint-fix prettier-fix",
     "prettier": "prettier --check \"**/*.{js,json,md,yml}\"",
@@ -28,7 +28,7 @@
     "url": "https://github.com/maxbrunet/renovate-approve-job/issues"
   },
   "engines": {
-    "node": "^18.12.0 || >=20.0.0",
+    "node": "^20.15.1 || >=22.0.0",
     "pnpm": "^9.0.0"
   },
   "dependencies": {
@@ -43,6 +43,7 @@
     "eslint-formatter-gha": "1.5.1",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-promise": "7.1.0",
+    "globals": "15.12.0",
     "npm-run-all2": "7.0.1",
     "prettier": "3.3.3",
     "semantic-release": "24.2.0"
