@@ -42,7 +42,7 @@
     "eslint": "9.29.0",
     "eslint-config-prettier": "10.1.5",
     "eslint-formatter-gha": "1.5.2",
-    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-import": "2.32.0",
     "eslint-plugin-promise": "7.2.1",
     "globals": "16.2.0",
     "npm-run-all2": "8.0.4",
