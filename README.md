@@ -28,7 +28,6 @@ On each run, the bot will:
      [GitHub Search qualifiers](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)
      matching the Renovate pull-requests (e.g. `author:app/renovate owner:maxbrunet`)
 6. Run the bot (on a schedule similarly to self-hosted Renovate Bot, e.g. as a [Cron](https://en.wikipedia.org/wiki/Cron) job):
-
    - With Docker:
 
      ```shell
