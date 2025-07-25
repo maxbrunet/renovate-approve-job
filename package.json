@@ -40,7 +40,7 @@
     "@semantic-release/exec": "7.1.0",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "eslint": "9.31.0",
-    "eslint-config-prettier": "10.1.5",
+    "eslint-config-prettier": "10.1.8",
     "eslint-formatter-gha": "1.6.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-promise": "7.2.1",
