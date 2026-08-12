@@ -47,7 +47,7 @@
     "globals": "17.9.0",
     "npm-run-all2": "9.0.3",
     "prettier": "3.9.6",
-    "semantic-release": "25.0.8"
+    "semantic-release": "25.0.9"
   },
   "packageManager": "pnpm@11.20.0"
 }
