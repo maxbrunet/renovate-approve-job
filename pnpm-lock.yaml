@@ -1539,8 +1539,8 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
-  nan@2.29.0:
-    resolution: {integrity: sha512-GlGk3HIvitbvs+LT3g6XUP1kpirKNvmDFwF/bmo6XNWSb/eYEs/O4bfgIEIXCZ+lIOTS5xNwDvSGMw6FJdAhtA==}
+  nan@2.30.0:
+    resolution: {integrity: sha512-P5mokDkSvCGBz6mZDD/2l+w9QoICRXdCyZ9ONGmTePr40oihJg3Kpn0YU3twKd6PJnwSlLBWNQeOT6yWEV2c4A==}
 
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
@@ -2254,8 +2254,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  url-join@5.1.1:
-    resolution: {integrity: sha512-5+M4YX5pEFeXSdMyt3J5iXr949UC+j6yHRkZUEv6ljTusAfdCdS4pSTudnYGzYEbKkdK5xIE0E3i5xzIzoiFrQ==}
+  url-join@5.2.0:
+    resolution: {integrity: sha512-/tMVQdp/2eE90fGb6npbd2nLHH8jamzLLeZhLEKTz4Rc38wO5AeEuIhoWroWWfQJS50ZzL4Xod9JER/pJWTTEQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   util-deprecate@1.0.2:
@@ -2598,7 +2598,7 @@ snapshots:
       semantic-release: 25.0.9(supports-color@7.2.0)
       tinyglobby: 0.2.17
       undici: 7.30.1
-      url-join: 5.1.1
+      url-join: 5.2.0
     transitivePeerDependencies:
       - kerberos
       - supports-color
@@ -2994,7 +2994,7 @@ snapshots:
 
   dtrace-provider@0.8.8:
     dependencies:
-      nan: 2.29.0
+      nan: 2.30.0
     optional: true
 
   dunder-proto@1.0.1:
@@ -3834,7 +3834,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nan@2.29.0:
+  nan@2.30.0:
     optional: true
 
   natural-compare@1.4.0: {}
@@ -4556,7 +4556,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  url-join@5.1.1: {}
+  url-join@5.2.0: {}
 
   util-deprecate@1.0.2: {}
 
